@@ -4,3 +4,7 @@
   padding: 0;
 
 }
+
+.bottom__panel{
+  display: flex;
+}
