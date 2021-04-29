@@ -1,3 +1,24 @@
 .VideoCard{
     margin-top: 20px;
+    width: 270px;
+}
+
+.VideoCard__Image{
+    height:140px;
+    width: 250px;;
+}
+
+.VideoCard__info{
+  display: flex;
+  margin-top: 5px;
+  padding: 0px 20px 0px 4px;
+}
+
+.VideoCard__text h4,p{
+  margin: 0px;
+}
+
+
+.VideoCard__text{
+    padding-left: 4px;
 }

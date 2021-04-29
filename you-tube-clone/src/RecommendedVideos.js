@@ -10,7 +10,8 @@ function RecommendedVideos() {
 
             <div className="recommended__Videoscard">
 
-                <VideoCard title="Let's Build a YouTube Clone with REACT JS for Beginners by Clever Programmer"
+                <VideoCard 
+                title="Let's Build a YouTube Clone with REACT JS for Beginners by Clever Programmer"
                
                 image="https://i.ytimg.com/vi/NT299zIk2JY/hq720.jpg"
                 channel="Clever Programmer"

@@ -7,10 +7,11 @@ import "./VideoCard.css";
 function VideoCard({title, image, channel, views, timestamp, channelImage}) {
     return (
         <div className="VideoCard">
-            <img src={image} />
+            <img src={image} className="VideoCard__Image" />
 
             <div className="VideoCard__info">
                 <Avatar src={channelImage}/>
+              <div className="VideoCard__text">
                 <h4>{title}</h4>
                 <p>
                     {channel}
@@ -18,6 +19,7 @@ function VideoCard({title, image, channel, views, timestamp, channelImage}) {
                 <p>
                     {views} • {timestamp}
                 </p>
+                </div>
 
             </div>
             

@@ -10,8 +10,10 @@ margin-left: 5px;
 margin-bottom: 20px;
 }
 
+
 .recommended__Videoscard{
     display: flex;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 
 }
