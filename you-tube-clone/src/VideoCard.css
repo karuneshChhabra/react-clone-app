@@ -22,3 +22,13 @@
 .VideoCard__text{
     padding-left: 4px;
 }
+.VideoCard__text p{
+    color: gray;
+    margin-top: 4px;
+}
+
+.VideoCard__channelImage{
+    width: 30px !important;
+    height: 30px !important;
+    margin-top: 4px;;
+}

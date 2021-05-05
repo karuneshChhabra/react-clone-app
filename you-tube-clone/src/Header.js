@@ -12,7 +12,8 @@ function Header() {
         <div className="header">
             <div className="header__left">
                 <MenuIcon/>
-                <img className="image_icon" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg"
+                <img className="image_icon" alt="youTube logo"
+                src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg"
                 />
             </div>
             <div className="header__input">
