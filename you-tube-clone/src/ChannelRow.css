@@ -1,0 +1,36 @@
+.ChannelRow{
+    display:flex;
+    width:70%;
+}
+
+.ChannelRow img{
+    width:120px;
+    height:120px;
+
+}
+
+.ChannelRow .ChannelRow__details{
+   margin-left:20px;
+   align-items:center;
+}
+
+.ChannelRow__details{
+    font-size:16px;
+    
+}
+
+.ChannelRow__channelname{
+    font-size:20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.ChannelRow__verified{
+    margin-left:8px;
+}
+
+.ChannelRow__subscribers, .ChannelRow__description{ 
+    color:#606060;
+}
+

@@ -11,6 +11,7 @@ function Header() {
 
   return (
     <div className="header">
+    
       <div className="header__left">
         <MenuIcon />
         <Link to="/">
@@ -21,6 +22,7 @@ function Header() {
           />
         </Link>
       </div>
+    
       <div className="header__input">
         <input
           placeholder="Search...."
@@ -28,10 +30,10 @@ function Header() {
           onChange={(e) => setInputField(e.target.value)}
         />
         <Link to={`/search/${inputField}`}>
-          <SearchIcon className="header__input__button" />
+          <SearchIcon className="header__input__button" type="submit" />
         </Link>
       </div>
-
+      
       <div className="header__right">
         <VideoCallIcon className="header__icon" />
         <NotificationsIcon className="header__icon" />

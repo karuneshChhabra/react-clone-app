@@ -1,0 +1,47 @@
+.VideoRow{
+    display:flex;
+  
+}
+
+.VideoRow__channelImage{
+    width:24px !important;
+    height:24px !important;
+}
+
+.VideoRow__image{
+    width:280px;
+    height:180px;
+    
+}
+
+.VideoRow__details h4 {
+    margin :0px;
+}
+
+.VideoRow__details{
+    margin-left:20px;
+    margin:0 20px 20px 20px;
+}
+
+.VideoRow__channelDetails{
+    display:flex;
+    padding: 4px;
+    align-items:center;
+}
+
+.VideoRow__channelDetails span{
+    margin-left:8px;
+}
+
+.VideoRow__details {
+    color:#606060;
+}
+
+.VideoRow__channelDetail{
+    margin-top:8px;
+}
+
+
+.VideoRow__channelVerified{
+    margin-left:4px;
+}
