@@ -11,7 +11,7 @@ function App() {
     <div className="app">
       <Router>
         <Switch>
-          <Route path="/search/:searchText" exact>
+          <Route path="/search/:inputField" exact>
             <Header></Header>
             <div className="bottom__panel">
               <SideView />

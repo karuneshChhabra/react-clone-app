@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState  } from "react";
 import VideoCallIcon from "@material-ui/icons/VideoCall";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import MenuIcon from "@material-ui/icons/Menu";
@@ -9,9 +9,11 @@ import "./Header.css";
 function Header() {
   const [inputField, setInputField] = useState("");
 
+
+
+
   return (
     <div className="header">
-    
       <div className="header__left">
         <MenuIcon />
         <Link to="/">
@@ -22,18 +24,20 @@ function Header() {
           />
         </Link>
       </div>
-    
+
       <div className="header__input">
-        <input
-          placeholder="Search...."
-          value={inputField}
-          onChange={(e) => setInputField(e.target.value)}
-        />
-        <Link to={`/search/${inputField}`}>
-          <SearchIcon className="header__input__button" type="submit" />
-        </Link>
-      </div>
       
+          <input
+            placeholder="Search...."
+            value={inputField}
+            onChange={(e) => setInputField(e.target.value)}
+          />
+          <Link to={`/search/${inputField}`} type="submit">
+            <SearchIcon className="header__input__button" />
+          </Link>
+        
+      </div>
+
       <div className="header__right">
         <VideoCallIcon className="header__icon" />
         <NotificationsIcon className="header__icon" />
